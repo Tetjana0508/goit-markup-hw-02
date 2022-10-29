@@ -1,11 +1,12 @@
-/*основний колір #212121; */
-/*вторинний колір #757575; */
+/*основний колір тексту #212121; */
+/*колір тексту заголовка #757575; */
 /*акцент #2196F3; */
 /* колір h1, лого в футері та адреси #FFFFFF; */
 /*колір телефону та ел.адреси в футері rgba(255, 255, 255, 0.6);*/
+/*логотип #000000;*/
 /*колір основного фону #F5F5F5;*/
-/*колір шапки та футера #2F303A;*/
 /*вторинний колір фону #F5F4FA;*/
+/*колір шапки та футера #2F303A;*/
 
 /*
 font-family: 'Raleway', sans-serif;
@@ -16,7 +17,12 @@ font-family: 'Roboto', sans-serif;
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196F3;
+  --subject-color: #FFFFFF;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
   --primary-bg-color: #F5F5F5;
+  --secondary-bg-color: #F5F4FA;
+  --nav-bg-color: #2F303A;
 }
 
 * {
@@ -36,7 +42,7 @@ ul {
 
 /*Верхня лінія*/
 .header-nav {
-  background-color: #FFFFFF;
+  background-color: var(--subject-color)
 }
 
 .header-nav a{
@@ -45,7 +51,7 @@ ul {
 
 .logo {
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,1923;
   line-height: 100%;
   letter-spacing: 3%;
   color: var(--accent-color);
@@ -54,7 +60,7 @@ ul {
 }
 
 .logo-header {
-  color: #000000;
+  color: var(--logo-color)
 }
 
 .site-nav .link,
@@ -63,8 +69,9 @@ ul {
 }
 
 .site-nav {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,1429;
   line-height: 100%;
   letter-spacing: 2%;
 }
@@ -76,8 +83,9 @@ ul {
 }
 
 .contacts .contacts-link {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,1429;
   line-height: 100%;
   letter-spacing: 2%;
   color: var(--title-text-color);
@@ -90,30 +98,33 @@ ul {
 
 /*Шапка*/
 .hero {
-  background-color: #2F303A;
+  background-color: var(--nav-bg-color)
 }
 
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1,3636;
   line-height: 116%;
   letter-spacing: 6%;
-  color: #FFFFFF;
+  color: var(--subject-color);
 }
 
 .hero-button {
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,875;
   line-height: 160%;
   letter-spacing: 6%;
-  color: #FFFFFF;
+  color: var(--subject-color);
   background-color: var(--accent-color);
+  /*border: none;*/
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: var(--primary-text-color);
-  background-color: #F5F4FA;
+  background-color: var(--secondary-bg-color)
 }
 
 
@@ -128,28 +139,33 @@ ul {
 }
 
 .feature-title {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,1429;
   line-height: 100%;
   letter-spacing: 3%;
 }
 
 .section-text p {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,7143;
   line-height: 146%;
   letter-spacing: 3%;
 }
 
 
 /*Чим ми займаємося*/
+.heading {
+  font-weight: 700;
+}
 .section-work .heading {
   color: var(--primary-text-color);
 }
 
 .header {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,1667;
   line-height: 100%;
   letter-spacing: 3%;
 }
@@ -157,7 +173,7 @@ ul {
 
 /*Наша команда*/
 .section-user {
-  background-color: #F5F4FA;
+  background-color: var(--secondary-bg-color)
 }
 
 .section-user .heading {
@@ -165,49 +181,43 @@ ul {
 }
 
 .section-title {
+  font-weight: 500;
   color: var(--primary-text-color);
+}
+.section-list p {
+  font-weight: 400;
 }
 
 .section .section-list {  
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,1875;
   line-height: 100%;
   letter-spacing: 3%;
 }
 
 /*Футер*/
 .footer-nav {
-  background-color: #2F303A;
-}
-/*
-.logo {
-  font-size: 26px;
-  line-height: 31px;
-  line-height: 100%;
-  letter-spacing: 3%;
-  color: var(--accent-color);
-  font-family: 'Raleway';
-  font-weight: 700;
+  background-color: var(--nav-bg-color)
 }
 
-.logo-header {
-  color: #000000;
-}
-*/
 .footer-nav a{
   text-decoration: none;
 }
-.foorer-logo {
-  color: #000000;
+.foorer-logo,
+.addres {
+  color: var(--subject-color)
+}
+.nav-link {
+  color: var(--footer-link-color)
 }
 
 .addres,
 .nav-link {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,7143;
   line-height: 146%;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);  
+  letter-spacing: 3%;  
 }
 
 .addres:hover,
@@ -223,11 +233,11 @@ ul {
 /*Фільтри*/
 .section-filters .button-filters {
   color: var(--primary-text-color);
-  background-color: #F5F4FA;
+  background-color: var(--secondary-bg-color)
 }
 
 .section-filters .button-filters:hover,
 .button-filters:focus {
-  color: #FFFFFF;
+  color: var(--subject-color);
   background-color: var(--accent-color);
 }
