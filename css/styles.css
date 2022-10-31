@@ -51,8 +51,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -70,8 +68,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1429;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.02em;
 }
 
@@ -99,8 +95,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1429;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
@@ -119,8 +113,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636;
-  align-items: center;
-  vertical-align: top;
   letter-spacing: 0.06em;
   color: var(--subject-color);
 }
@@ -130,8 +122,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  align-items: center;
-  vertical-align: center;
   letter-spacing: 0.06em;
   color: var(--subject-color);
   background-color: var(--accent-color);
@@ -157,16 +147,12 @@ body {
 .features-title {
   font-size: 14px;
   line-height: 1.1429;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.03em;
 }
 
 .features-list p {
   font-size: 14px;
   line-height: 1.7143;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.03em;
 }
 
@@ -174,8 +160,6 @@ body {
 .heading {
   font-size: 36px;
   line-height: 1.1667;
-  align-items: center;
-  vertical-align: top;
   letter-spacing: 0.03em;
 }
 .specialty .heading {
@@ -195,16 +179,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
-  align-items: center;
-  vertical-align: top;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .section-user p {
   font-size: 16px;
   line-height: 1.1875;
-  align-items: center;
-  vertical-align: top;
   letter-spacing: 0.03em;
 }
 
@@ -228,8 +208,6 @@ body {
 .nav-link {
   font-size: 14px;
   line-height: 1.7143;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.03em;
   font-style: normal;
 }
@@ -248,8 +226,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  align-items: center;
-  vertical-align: top;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);
@@ -270,8 +246,6 @@ body {
 .section-title {
   font-size: 18px;
   line-height: 2;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
@@ -279,7 +253,5 @@ body {
 .filter p {
   font-size: 16px;
   line-height: 1.875;
-  align-items: left;
-  vertical-align: top;
   letter-spacing: 0.03em;
 }
